@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.live {
+    background: #000;
+}
+
+.container {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #fb1;
+}
+.container h1 {
+    text-align: center;
+}
+
+#game-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+#game-set button {
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10%;
+    border: 1px solid #41C001;
+}
+
+#game-set button:hover {
+    background: #41C001;
+}
+
+
+#game-set p {
+    display: block;
+    width: 200px;
+}
+
+#game-set input {
+    width: 50px;
+}
+
+#board {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div {
+    border: 1px solid #000;
+}
+
+#board div:hover {
+    cursor: pointer;
+}
