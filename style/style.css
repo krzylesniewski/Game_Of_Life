@@ -10,12 +10,14 @@
 
 .container {
     width: 1000px;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
     background: #fb1;
+    padding-bottom: 50px;
 }
 .container h1 {
     text-align: center;
+    line-height: 50px;
 }
 
 #game-set {
